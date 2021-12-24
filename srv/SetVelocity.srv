@@ -1,0 +1,3 @@
+string name # Velocity name (e.g. 'cleaning', 'cruising')
+---
+bool success # Error flag

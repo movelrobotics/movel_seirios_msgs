@@ -1,0 +1,5 @@
+---
+HardwareState base_motor_state
+HardwareState[] lidar_states
+HardwareState[] camera_states
+HardwareState[] other_hardware_states

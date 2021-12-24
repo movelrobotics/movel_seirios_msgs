@@ -1,0 +1,16 @@
+uint8 TASK_SUPERVISOR       = 0
+uint8 FLEXBE_STATE_MACHINE  = 1
+
+#goal definition
+uint8 target_service
+TaskList task_list              # only used if target_service == TASK_SUPERVISOR
+string goal_payload             # used unless target_service == TASK_SUPERVISOR
+---
+#result definition
+bool success
+uint16 id
+std_msgs/String message
+---
+#feedback
+Task completed_task             # if target_service == TASK_SUPERVISOR
+std_msgs/String current_state   # if target_service == FLEXBE_STATE_MACHINE

@@ -1,0 +1,5 @@
+string from_map
+string to_map
+geometry_msgs/Pose pose
+---
+string transit_file_path

@@ -1,0 +1,5 @@
+nav_msgs/Path plan
+int32 start_from_idx
+---
+int32 reachable_idx
+int32 blocked_idx

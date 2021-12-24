@@ -1,0 +1,10 @@
+#goal definition
+TaskList task_list
+---
+#result definition
+bool success
+uint16 id 					#id of task list completed
+std_msgs/String message 	#error messages, if any
+---
+#feedback
+Task completed_task 		#most recent completed task

@@ -1,0 +1,4 @@
+nav_msgs/Path path
+float32 footprint_radius
+---
+int32 index

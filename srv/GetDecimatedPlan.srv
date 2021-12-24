@@ -1,0 +1,3 @@
+float32 decimation
+---
+nav_msgs/Path plan
