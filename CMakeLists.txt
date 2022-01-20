@@ -79,6 +79,7 @@ add_message_files(
   TaskSchedule.msg  
   Track.msg
   TrackArray.msg
+  zones.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -113,6 +114,8 @@ add_service_files(
   MFNSaveTransitPoint.srv
   MFNSaveMapNames.srv
   StopReconfig.srv
+  TeleopPlanner.srv
+  ZonePolygen.srv
 #   Service1.srv
 #   Service2.srv
 )
