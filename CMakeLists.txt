@@ -80,6 +80,7 @@ add_message_files(
   Track.msg
   TrackArray.msg
   zones.msg
+  MultipointProgress.msg
 )
 
 ## Generate services in the 'srv' folder
@@ -116,6 +117,7 @@ add_service_files(
   StopReconfig.srv
   TeleopPlanner.srv
   ZonePolygen.srv
+  MultipointPath.srv
 #   Service1.srv
 #   Service2.srv
 )

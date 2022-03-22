@@ -1,0 +1,4 @@
+geometry_msgs/Pose[] major_points
+---
+geometry_msgs/Point[] generated_path
+string result

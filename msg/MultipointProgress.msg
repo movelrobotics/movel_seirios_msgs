@@ -1,0 +1,7 @@
+int32 from_major_index
+int32 to_major_index
+int32 from_minor_index
+int32 to_minor_index
+geometry_msgs/Pose from_major_pose
+geometry_msgs/Pose to_major_pose
+geometry_msgs/Pose[] major_points_path
