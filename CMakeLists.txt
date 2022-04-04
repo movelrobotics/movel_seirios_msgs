@@ -79,7 +79,7 @@ add_message_files(
   TaskSchedule.msg  
   Track.msg
   TrackArray.msg
-  zones.msg
+  Zones.msg
   MultipointProgress.msg
 )
 
@@ -116,7 +116,8 @@ add_service_files(
   MFNSaveMapNames.srv
   StopReconfig.srv
   TeleopPlanner.srv
-  ZonePolygen.srv
+  ZonePolygon.srv
+  ThrottleSpeed.srv
   MultipointPath.srv
 #   Service1.srv
 #   Service2.srv
