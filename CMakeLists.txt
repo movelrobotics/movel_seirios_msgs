@@ -19,6 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   nav_msgs
   diagnostic_msgs
+  sensor_msgs
 )
 
 ## System dependencies are found with CMake's conventions
@@ -64,6 +65,7 @@ add_message_files(
   DiagnosticState.msg
   DiagnosticStateArray.msg
   HardwareState.msg
+  LaserScanWithTF.msg
   movelPointcloud2.msg
   Obstacles.msg
   ObstructionStatus.msg
@@ -140,6 +142,7 @@ generate_messages(
   geometry_msgs
   nav_msgs
   diagnostic_msgs
+  sensor_msgs
 )
 
 ################################################
