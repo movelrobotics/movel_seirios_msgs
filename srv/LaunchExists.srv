@@ -1,3 +1,4 @@
 uint8 launch_id
 ---
 bool exists
+string message
