@@ -128,6 +128,7 @@ add_service_files(
   ThrottleSpeed.srv
   MultipointPath.srv
   UniversalHandlerRunTask.srv
+  GetTaskDurationEstimate.srv
 #   Service1.srv
 #   Service2.srv
 )
