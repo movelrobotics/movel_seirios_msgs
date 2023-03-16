@@ -96,6 +96,7 @@ add_service_files(
   ClearPath.srv
   ClearPathIdx.srv
   ClearTarget.srv
+  CmdVelInput.srv
   DrawMultiPolygons.srv
   edge_info.srv
   get_graph_plan.srv
