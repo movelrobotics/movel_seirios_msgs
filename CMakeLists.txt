@@ -71,6 +71,7 @@ add_message_files(
   ObstructionStatus.msg
   Pixel.msg
   Point.msg
+  PointArray.msg
   Polygon.msg
   Reports.msg
   SegmentObstacle.msg
@@ -79,6 +80,7 @@ add_message_files(
   StringArray.msg
   SubtaskFeedback.msg
   Task.msg
+  TaskDuration.msg
   TaskFeedback.msg
   TaskHandlerFeedback.msg
   TaskList.msg
@@ -114,6 +116,7 @@ add_service_files(
   SetVelocity.srv
   SpeedZones.srv
   StartLaunch.srv
+  StartZoneCoverageStats.srv
   StopLaunch.srv
   StringArrayTrigger.srv
   StringTrigger.srv
@@ -123,6 +126,7 @@ add_service_files(
   LoadMap.srv
   MFNSaveTransitPoint.srv
   MFNSaveMapNames.srv
+  MFNGetMapId.srv
   StopReconfig.srv
   TeleopPlanner.srv
   ZonePolygon.srv
@@ -130,6 +134,8 @@ add_service_files(
   MultipointPath.srv
   UniversalHandlerRunTask.srv
   GetTaskDurationEstimate.srv
+  BackupConfig.srv
+  RestoreConfig.srv
 #   Service1.srv
 #   Service2.srv
 )

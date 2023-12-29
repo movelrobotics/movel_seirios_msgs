@@ -1,0 +1,7 @@
+string task_id
+geometry_msgs/Point[] zone_polygon
+geometry_msgs/Point[] footprint_polygon
+float64 footprint_radius
+---
+bool success
+string message

@@ -1,0 +1,4 @@
+string map
+geometry_msgs/Pose transit_pose
+---
+string map_id

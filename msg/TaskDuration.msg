@@ -1,0 +1,2 @@
+uint16 task_id
+int64 duration

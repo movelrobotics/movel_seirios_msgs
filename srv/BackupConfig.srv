@@ -1,0 +1,5 @@
+string software_version
+---
+bool success
+string backup_id
+string message
