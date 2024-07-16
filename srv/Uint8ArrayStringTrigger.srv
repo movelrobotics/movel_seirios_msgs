@@ -1,0 +1,5 @@
+uint8[] input
+string input_string
+---
+bool success
+string message

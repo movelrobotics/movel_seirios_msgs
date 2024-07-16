@@ -1,0 +1,4 @@
+float64 inflation_radius
+float64 cost_scaling_factor
+---
+bool success

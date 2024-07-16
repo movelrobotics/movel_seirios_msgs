@@ -112,6 +112,7 @@ add_service_files(
   MarkPath.srv
   pathdistance.srv 
   SetPlanDecimation.srv
+  SetInflationLayer.srv
   SetSpeed.srv
   SetVelocity.srv
   SpeedZones.srv
@@ -122,6 +123,7 @@ add_service_files(
   StringTrigger.srv
   Uint8.srv
   HardwareStates.srv
+  PoseWithCovarianceStamped.srv
   Reset.srv
   LoadMap.srv
   MFNSaveTransitPoint.srv
