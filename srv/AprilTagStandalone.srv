@@ -1,0 +1,6 @@
+int32 index
+int32 id
+float64 size
+---
+bool success
+string message

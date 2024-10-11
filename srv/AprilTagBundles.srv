@@ -1,0 +1,10 @@
+string name_tag
+int32 id_left
+float64 size_left
+float64 offset_x_left
+int32 id_right
+float64 size_right
+float64 offset_x_right
+---
+bool success
+string message

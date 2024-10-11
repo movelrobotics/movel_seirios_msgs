@@ -61,6 +61,7 @@ add_message_files(
   CircleObstacle.msg
   Cluster.msg
   ClusterArray.msg
+  CustomTeleop.msg
   DateTime.msg
   DiagnosticState.msg
   DiagnosticStateArray.msg
@@ -112,6 +113,8 @@ add_service_files(
   MarkPath.srv
   pathdistance.srv 
   SetPlanDecimation.srv
+  SetGoalTolerance.srv
+  GetGoalTolerance.srv
   SetInflationLayer.srv
   SetSpeed.srv
   SetVelocity.srv
@@ -122,6 +125,7 @@ add_service_files(
   StringArrayTrigger.srv
   StringTrigger.srv
   Uint8.srv
+  Uint8ArrayStringTrigger.srv
   HardwareStates.srv
   PoseWithCovarianceStamped.srv
   Reset.srv
@@ -138,6 +142,10 @@ add_service_files(
   GetTaskDurationEstimate.srv
   BackupConfig.srv
   RestoreConfig.srv
+  SetFloat64.srv
+  AprilTagBundles.srv
+  AprilTagStandalone.srv
+  TagOffset.srv
 #   Service1.srv
 #   Service2.srv
 )
