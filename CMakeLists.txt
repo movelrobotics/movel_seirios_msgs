@@ -89,6 +89,7 @@ add_message_files(
   Track.msg
   TrackArray.msg
   Zones.msg
+  UnvisitedPointsArray.msg
   MultipointProgress.msg
 )
 
