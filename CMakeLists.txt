@@ -147,6 +147,7 @@ add_service_files(
   AprilTagBundles.srv
   AprilTagStandalone.srv
   TagOffset.srv
+  DiffDriveDocking.srv
 #   Service1.srv
 #   Service2.srv
 )

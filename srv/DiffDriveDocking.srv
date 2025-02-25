@@ -1,0 +1,19 @@
+float64 init_xy_tolerance
+float64 final_xy_tolerance
+float64 yaw_tolerance
+float64 final_yaw_tolerance
+int32 frames_tracked
+float64 max_linear_vel
+float64 min_linear_vel
+float64 max_turn_vel
+float64 min_turn_vel
+float64 max_yaw_diff
+float64 y_bounds
+int32 reverse
+float64 linear_acc
+float64 final_approach_dist
+float64 xy_update_tolerance
+float64 yaw_update_tolerance 
+---
+bool success
+string message
