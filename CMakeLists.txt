@@ -148,6 +148,7 @@ add_service_files(
   AprilTagStandalone.srv
   TagOffset.srv
   DiffDriveDocking.srv
+  ProcessGoalOffset.srv
 #   Service1.srv
 #   Service2.srv
 )
