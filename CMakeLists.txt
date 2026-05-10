@@ -116,6 +116,7 @@ add_service_files(
   SetPlanDecimation.srv
   SetGoalTolerance.srv
   GetGoalTolerance.srv
+  GetInt.srv
   SetInflationLayer.srv
   SetSpeed.srv
   SetVelocity.srv
@@ -149,6 +150,7 @@ add_service_files(
   TagOffset.srv
   DiffDriveDocking.srv
   ProcessGoalOffset.srv
+  SetWaypoints.srv
 #   Service1.srv
 #   Service2.srv
 )
