@@ -4,10 +4,10 @@ float64 offset_distance
 ---
 geometry_msgs/Pose processed_goal
 # True if the goal orientation was flipped 180 degrees because it was opposite
-# to the robot's orientation (>90 degrees difference). False means the original
-# orientation was kept as-is.
+# to the pose heading from robot_pose.position to goal_pose.position (>90 degrees
+# difference). False means the original orientation was kept as-is.
 bool orientation_adjusted
 # True if the goal position was shifted forward by offset_distance meters along
-# the goal's yaw, because the robot was "behind" the goal (goal is in the robot's
-# forward hemisphere). False means the position was not changed.
+# the goal's yaw, because robot_pose.position is "behind" the goal with respect
+# to that pose heading. False means the position was not changed.
 bool offset_applied
